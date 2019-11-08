@@ -116,7 +116,7 @@ moment('2015-02-27T10:00:00Z').addWorkingTime(5, 'hours', 30, 'minutes');
 
 Returns: `self`
 
-Adds an amount of working time to a moment, modifying the original moment instance.
+Subtracts an amount of working time from a moment, modifying the original moment instance.
 
 #### Example:
 ```javascript
